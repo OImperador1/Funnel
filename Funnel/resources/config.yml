@@ -1,0 +1,12 @@
+#   Thank you for using Funnel. Funnel will help other plugins choose what
+# plugins they use data from.
+#   If you do not have any plugins that provide those data, put "dummy".
+#   For example, if you choose "EconomyS" for economy plugins, other plugins
+# will get economy data from EconomyS. If you choose "dummy", it will behave as
+# if an economy plugin was just newly installed (every player has a 0 balance)
+
+# Supported economy plugins:
+## EconomyS
+## PocketMoney
+## dummy
+economy: $ECONOMY_PLUGIN_NAME$
